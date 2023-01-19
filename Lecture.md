@@ -43,7 +43,7 @@ unstructured or semi-random sample points into a triangular mesh.
 That optimality makes the Delaunay Triangulation a useful tool for 
 interpolation, grid construction, and surface analysis.
 
-<img src="C:\Users\gally\OneDrive - bwedu\3_semester\Implementation of Algoritms for Finite Elements\Summer_seminar\figs\fig1.png" title="non-optimal_and_optimal" width="600"/>
+<img src="\figs\fig1.png" title="non-optimal_and_optimal" width="600"/>
 
 ---
 ## Optimality criterion
