@@ -1,35 +1,41 @@
 ---
-type: slide
-slideOptions:
-transition: slide
-width: 1400
-height: 900
-margin: 0.1
+marp: true
+title: Delaunay Triangulation
+description: Introduction to the Delaunay Triangulation by Vadim Gallyamov
+theme: gaia
+paginate: true
+_paginate: false
 ---
 
 <style>
-  .reveal strong {
-    font-weight: bold;
-    color: orange;
-  }
-  .reveal p {
-    text-align: left;
-  }
-  .reveal section h1 {
-    color: orange;
-  }
-  .reveal section h2 {
-    color: orange;
-  }
-  .reveal code {
-    font-family: 'Ubuntu Mono',serif;
-    color: orange;
-  }
-  .reveal section img {
-    background:none;
-    border:none;
-    box-shadow:none;
-  }
+section {
+  background: black;
+  color: white;
+  font-size: 26px;
+  padding: 40px;
+}
+
+h1 {
+  color: orange;
+  text-align: center 
+}
+
+h2 {
+  color: orange;
+  text-align: center 
+}
+
+strong {
+  font-weight: bold;
+  color: orange;
+}
+  
+code {
+  color: orange;
+  background: black;
+}
+
+
 </style>
 
 # Delaunay Triangulation
@@ -164,6 +170,7 @@ minimum interior angle of all triangles is maximized
 <img src="https://github.com/Darth-Veidim/Delaunay_triangulation/blob/main/figs/fig12-4.png" title="optim4" width="400"/>
 <img src="https://github.com/Darth-Veidim/Delaunay_triangulation/blob/main/figs/fig12-5.png" title="optim5" width="400"/>
 
+---
 
 ### References
 
