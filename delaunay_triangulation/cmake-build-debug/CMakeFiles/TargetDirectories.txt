@@ -1,0 +1,3 @@
+C:/Users/gally/OneDrive - bwedu/3_semester/Implementation of Algoritms for Finite Elements/Summer_seminar/delaunay_triangulation/cmake-build-debug/CMakeFiles/delaunay.dir
+C:/Users/gally/OneDrive - bwedu/3_semester/Implementation of Algoritms for Finite Elements/Summer_seminar/delaunay_triangulation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gally/OneDrive - bwedu/3_semester/Implementation of Algoritms for Finite Elements/Summer_seminar/delaunay_triangulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

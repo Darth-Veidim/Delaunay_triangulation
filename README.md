@@ -1,4 +1,5 @@
-# Hello there
-repo for the seminar lecture
+# Delaunay triangulation
 
-## здравствуй мир
+This repo contains:
+- lecture slides discussing Delaunay triangulation,
+- pseudocode and implementation of the Bowyer–Watson algorithm,
