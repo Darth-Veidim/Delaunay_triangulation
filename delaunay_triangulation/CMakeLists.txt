@@ -3,4 +3,4 @@ project(delaunay)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(delaunay main.cpp Vertex.h Edge.h Triangle.h Polygon.h main.h matplotlibcpp.h tester.cpp)
+add_executable(delaunay main.cpp Vertex.h Edge.h Triangle.h main.h)

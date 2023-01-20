@@ -15,9 +15,6 @@
 #include <vector>
 #include <cstdlib>
 #include "random"
-//#include <C:\Users\gally\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\core\include\numpy\arrayobject.h>
-//#include <C:\Users\gally\AppData\Local\Programs\Python\Python311\include\Python.h>
-//#include "matplotlibcpp.h"
 
 using namespace std;
 

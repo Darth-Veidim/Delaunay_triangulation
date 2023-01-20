@@ -107,10 +107,10 @@ int main() {
     cout << "   Start of the Delaunay Triangulation Algorithm" << endl;
     cout << "----------------------------------------------------" << endl;
 
-    Eigen::Matrix<double,3,2>   super_triangle {
-            {0,     3},
-            {10,    3},
-            {5,     9}};
+    Eigen::Matrix<double, 3, 2> super_triangle{
+            {0,  3},
+            {10, 3},
+            {5,  9}};
 
     //    Creation of the set of nodes
 #if 0
@@ -121,13 +121,13 @@ int main() {
             {5.0,   8.0} };
 #else
     const int points = 100;
-    Eigen::Matrix<double,points,2> coord;
+    Eigen::Matrix<double, points, 2> coord;
 
     Eigen::IOFormat HeavyFmt(Eigen::FullPrecision, 0, ", ", ";\n", "[", "]", "[", "]");
     int lb = 400000, ub = 600000;
-    for (int i=0; i<points; i++)
-        for (int j=0; j<2; j++)
-            coord(i,j) = ((rand() % (ub - lb + 1)) + lb)/100000.;
+    for (int i = 0; i < points; i++)
+        for (int j = 0; j < 2; j++)
+            coord(i, j) = ((rand() % (ub - lb + 1)) + lb) / 100000.;
 
     cout << "Set of nodes for triangulation: " << endl;
     cout << coord.format(HeavyFmt);

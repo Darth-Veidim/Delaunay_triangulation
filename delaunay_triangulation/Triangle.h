@@ -13,8 +13,6 @@ class Triangle{
 
 public:
 
-//    int                         id;
-
     vector<Edge*>               edges;
     vector<Vertex*>             vertices;
 
@@ -25,8 +23,6 @@ public:
             Edge* _b,
             Edge* _c
             ) {
-
-//        id = _id;
 
         edges.resize(3);
         edges[0] = _a;
