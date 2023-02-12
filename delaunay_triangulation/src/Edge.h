@@ -6,7 +6,6 @@
 #define DELAUNAY_EDGE_H
 
 #include "main.h"
-#include "Vertex.h"
 
 class Triangle;
 

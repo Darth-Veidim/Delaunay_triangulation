@@ -5,8 +5,6 @@
 #ifndef DELAUNAY_TRIANGLE_H
 #define DELAUNAY_TRIANGLE_H
 
-#include "Vertex.h"
-#include "Edge.h"
 #include "main.h"
 
 class Triangle{
