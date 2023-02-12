@@ -1,4 +1,4 @@
-#include "center_search.h"
+#include "../include/center_search.h"
 
 void lineFromPoints(
         Vertex* _v1,

@@ -1,9 +1,9 @@
-#include "main.h"
+#include "../include/main.h"
 
-#include "Vertex.h"
-#include "Edge.h"
-#include "Triangle.h"
-#include "center_search.h"
+#include "../include/Vertex.h"
+#include "../include/Edge.h"
+#include "../include/Triangle.h"
+#include "../include/center_search.h"
 
 int main() {
 
